@@ -1,4 +1,4 @@
-FROM golang:1.12
+FROM golang:1.18.8
 ARG runtime
 
 RUN go get -u github.com/golang/dep/cmd/dep
